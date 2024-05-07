@@ -42,6 +42,6 @@ GET */api/vendors/{vendor_id}/performance/*: Retrieve a vendor's historical perf
 To run the test suite, follow these steps:
 
 ### **Install the required packages** by running `pip install -r requirements.txt`
-### **Run the tests using the following command:** `python manage.py test`
+### **Run the Server using the following command:** `python manage.py runserver`
 The test suite includes tests for the Vendor, PurchaseOrder, and HistoricalPerformance models, as well as tests for the API endpoints.
 
