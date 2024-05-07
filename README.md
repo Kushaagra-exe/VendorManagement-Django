@@ -26,7 +26,7 @@ Represents historical performance data for a vendor with fields for on-time deli
 # **API Endpoints**
 The system provides the following API endpoints:
 
-POST */api/vendors/*: Create a new vendor.
+POST */api/vendors/*: Create a new vendor.  return
 GET */api/vendors/*: List all vendors.
 GET */api/vendors/{vendor_id}/*: Retrieve a specific vendor's details.
 PUT */api/vendors/{vendor_id}/*: Update a vendor's details.
