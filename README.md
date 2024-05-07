@@ -12,13 +12,16 @@ Historical Performance Evaluation: Calculate historical on-time delivery rate, q
 
 The system uses the following models:
 
-## **Vendor:** Represents a vendor with fields for name, contact details, address, vendor code, on-time delivery rate, quality rating average, average response time, and fulfillment rate.
+## **Vendor:** 
+Represents a vendor with fields for name, contact details, address, vendor code, on-time delivery rate, quality rating average, average response time, and fulfillment rate.
 
 
-## **PurchaseOrder:** Represents a purchase order with fields for PO number, vendor, order date, delivery date, items, quantity, status, quality rating, issue date, and acknowledgment date.
+## **PurchaseOrder:**
+Represents a purchase order with fields for PO number, vendor, order date, delivery date, items, quantity, status, quality rating, issue date, and acknowledgment date.
 
 
-## **HistoricalPerformance:** Represents historical performance data for a vendor with fields for on-time delivery rate, quality rating, response time, and fulfillment rate.
+## **HistoricalPerformance:** 
+Represents historical performance data for a vendor with fields for on-time delivery rate, quality rating, response time, and fulfillment rate.
 
 # **API Endpoints**
 The system provides the following API endpoints:
